@@ -18,27 +18,23 @@ It includes model versioning, endpoint deployment, and a simple user interface f
 
 ## ⚙️ Steps
 
-### 1️⃣ Train & Upload Model
+### 1️⃣ Train & Upload Model -> Diabetes_Model.ipynb
 
-Diabetes_Model.py
-
-This script:
-
-Trains the Linear Regression model on the diabetes dataset
-Saves it as diabetes_model.pkl
-Uploads it to S3 bucket
-
-### 2️⃣ Deploy to SageMaker
+- Trains the Linear Regression model on the diabetes dataset
+- Saves it as diabetes_model.pkl
+- Uploads it to S3 bucket
 
 
-Diabetes_Deploy.py
+### 2️⃣ Deploy to SageMaker -> Diabetes_Deploy.ipynb
 
+- Deploys the model as a SageMaker endpoint.
+- Once deployed, SageMaker provides a public endpoint for real-time predictions.
 
-Deploys the model as a SageMaker endpoint.
 
 ### 3️⃣ Test Locally
 
-Use Gradio for easy predictions
+- Use Gradio for easy predictions
+
 
 ## 🧩 Tools
 
