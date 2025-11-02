@@ -19,8 +19,8 @@ It includes model versioning, endpoint deployment, and a simple user interface f
 ## ⚙️ Steps
 
 ### 1️⃣ Train & Upload Model
-```bash
-python Diabetes_Model.py
+```
+Diabetes_Model.py
 ````
 This script:
 
@@ -30,8 +30,8 @@ Uploads it to S3 bucket
 
 ### 2️⃣ Deploy to SageMaker
 
-```bash
-python Diabetes_Deploy.py
+```
+Diabetes_Deploy.py
 ```
 
 Deploys the model as a SageMaker endpoint.
@@ -51,4 +51,4 @@ Use Gradio for easy predictions
 
 **By Razan Alkhamisi**
 
-```
+
