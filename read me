@@ -1,0 +1,57 @@
+Got it ✅ Here’s a **short and clean version** of your `README.md`, perfect for GitHub:
+
+---
+
+````markdown
+# 🧠 AWS MLOps — Diabetes Prediction
+
+A simple demo showing **end-to-end MLOps on AWS** using **S3, SageMaker, and Gradio**.  
+The project trains a model, uploads it to S3, deploys it as an endpoint, and provides a web UI for predictions.
+
+---
+
+## ⚙️ Steps
+
+### 1️⃣ Train & Upload Model
+```bash
+python train_upload_model.py
+````
+
+Trains a Linear Regression model and uploads it to your S3 bucket.
+
+### 2️⃣ Deploy to SageMaker
+
+```bash
+python deploy_model.py
+```
+
+Deploys the model as a SageMaker endpoint.
+
+### 3️⃣ Test Locally
+
+Use Gradio for easy predictions:
+
+```bash
+python gradio_app.py
+```
+
+---
+
+
+## 🧩 Tools
+
+* Python + scikit-learn
+* AWS S3 + SageMaker
+* Boto3 + Gradio
+* dotenv for security
+
+---
+
+**By Razan Alkhamisi**
+
+```
+
+---
+
+Would you like me to also give you the `.gitignore` file (so `.env` and model files don’t upload)?
+```
