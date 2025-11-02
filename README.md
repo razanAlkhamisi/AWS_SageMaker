@@ -19,9 +19,9 @@ It includes model versioning, endpoint deployment, and a simple user interface f
 ## ⚙️ Steps
 
 ### 1️⃣ Train & Upload Model
-```
+
 Diabetes_Model.py
-````
+
 This script:
 
 Trains the Linear Regression model on the diabetes dataset
@@ -30,9 +30,9 @@ Uploads it to S3 bucket
 
 ### 2️⃣ Deploy to SageMaker
 
-```
+
 Diabetes_Deploy.py
-```
+
 
 Deploys the model as a SageMaker endpoint.
 
